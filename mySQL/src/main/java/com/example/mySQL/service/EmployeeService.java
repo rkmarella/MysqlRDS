@@ -13,4 +13,8 @@ public interface EmployeeService {
     public Employee getEmployee(int id);
     public Employee updateEmp(Employee emp,int id);
     public void deleteEmp(int id);
+
+    String callExternalAPI();
+    boolean isValidApiKey(String apiKey);
+
 }
